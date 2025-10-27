@@ -9,10 +9,4 @@ def test_given_input():
         ('2010-01-12 10:30:00', '2010-01-12 10:37:00'),
         ('2010-01-12 10:38:00', '2010-01-12 10:45:00')
     ]
-    
-    print("Result:", result)
-    print("Expected:", expected)
-    print("Test passed:", result == expected)
-    
-if __name__ == "__main__":
-    test_given_input()
+    assert result == expected
